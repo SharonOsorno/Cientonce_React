@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+@font-face{/*titulos*/
+  src: url(../Font/d-din/D-DIN-Bold.otf);
+  font-family: "DIN-Bold";
+  font-weight: normal;
+}
+@font-face{ /*subtitulo*/
+  src: url(../Font/d-din/D-DIN-Italic.otf);
+  font-family: "DIN-Italic";
+  font-weight: normal;
+}
+@font-face{
+  src: url(../Font/Helvetica-Font/Helvetica.ttf);
+  font-family:"Helvetica-Regular";
+  font-weight: normal;
+}
+
+.text-bold{
+font-family: DIN-Bold;
+}
+.subtitle{
+font-family: DIN-Italic;
+}
+.parrafo{
+font-family: Helvetica-Regular;
+} 
+:root{
+  --bg-footer: #000000;
+  --bg-footer-two: #7963A8;
+  --bg-purple:#76448A;
+  --bg-rose:#ed3d3d;
+  --bg-white: #ffffff;
+  --color-grey:#706F6F;
+  --colo-blue:#324798;
+}
+.home {
+  background:var(--bg-footer);
+}
+.logo {
+  width: 3em;
+}
+.about h3 {
+ background:  #5b22af;
+}
+
+.btn_login{
+  background: var(--color-contact);
+  border: none;
+}
+.personaje{
+background:  #5b22af;
+ }
+.img-personaje{
+  width: 10em;
+  height: auto;
+}
+.content-zoom:hover {
+  -webkit-transform: scale(0.2);
+  transform: scale(0.8);
+  overflow: hidden;
+}
+.img-personaje:hover {
+  filter: opacity(0.5);
+}
+.footer {
+  background:var(--bg-footer);
+}
+

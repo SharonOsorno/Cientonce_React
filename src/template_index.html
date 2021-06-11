@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cientonce-Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+
+    <!-- Barra Navegación -->
+    <section class="home">
+      <header class="container py-2">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+          <a href="./index.html" class="navbar-brand logo">
+            <img
+              class="img-fluid logo"
+              src="./Img/Logo responsive white.png"
+              alt="Cientoonce"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#mainMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ml-auto menu">
+              <li class="nav-item">
+                <a class="nav-link  mr-5 text-white text-bold" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  mr-5 text-white text-bold" href="./index-comic.html">Comic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  mr-5 text-white text-bold" href="./index-shop.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn_login btn text-white text-bold" data-toggle="modal" data-target="#login" >
+                Login
+                </button>      
+                  <!-- Modal -->
+                <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false" >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" ></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <form >                   
+                              <h2 class="text-center pb-3 text-bold">Inicio Sesión</h2>
+                              <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input required type="email" class="form-control" >
+                                <small id="emailHelp" class="form-text text-muted">No compartas tu correo electrónico con nadie</small>
+                              </div>
+                              <div class="form-group">
+                                <label for="password">Contraseña</label>
+                                <input required type="password" class="form-control">
+                              </div>
+                              <div class="form-group form-check">
+                                <input required type="checkbox" class="form-check-input" >
+                                <label >Mantenerme conectado</label>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                              <div class="my-3">
+                                  <span> ¿Ya tienes cuenta? <a href="#">Registrate</a></span><br>
+                                  <span><a href="#">Recuperar contraseña</a></span>
+                              </div>
+                          </form>
+                      </div>            
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <!--seccion 1-->
+    <section class="slider">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+         </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <video autoplay src="./Video/video_banner.mp4" class="d-block w-100" ></video>
+          </div>
+         
+          <div class="carousel-item">
+            <img src="./Img/banner_002.jpg" class="d-block w-100" alt="...">
+          </div>
+          
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>  
+
+    <!--sección 2-->
+    <section class="section_video py-5">
+      <div class="container">
+        <div class="row align-items-center ">
+          <div class="col-md-6 ">
+            <article>
+              <video  class="embed-responsive embed-responsive-16by9" src="./Video/Spot-Publicitario.mp4" width="560" height="315" controls poster="./Img/preload-cientonce.jpeg"></video>
+            </article>
+          </div>
+          <div class=" col-md-5">
+            <article class="mt-5">
+              <h3 class="text-right text-white text-bold">¿Quienes somos?</h3>
+              <p class="text-right text-white parrafo" >Empresa dedicada a la elaboración y asesoramiento de contenido multimedia, cuyo objetivo es ofrecer un servicio de calidad de acuerdo a las exigencias del cliente.  </p> 
+              <div class=" row justify-content-end">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item active parrafo" aria-current="page">Exigente</li>
+                  <li class="breadcrumb-item active parrafo" aria-current="page">Eficaz</li>
+                  <li class="breadcrumb-item active parrafo" aria-current="page">Flexible</li>
+                </ol>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 Colaboradores-->
+    <section>  
+      <div class="container">  
+        <h2 class="text-center py-5 text-bold">Colaboradores</h2>
+        <div class="row text-center">
+          <div class="col-lg-4 pb-5">
+            <img src="./Img/estefa_photo.jpg" class="img-filter img-fluid  " alt="Estefa_photo">
+            <h4 class="text-bold">Estefanía Marín</h4>
+            <p class="parrafo">"Estudiante SENA"</p>
+          </div>
+          <div class="col-lg-4  pb-5">
+            <img   src="./Img/camilo-photo.jpg" class="img-filter img-fluid" alt="camilo_photo">
+            <h4 class="text-bold">Juan C. Gutierrez</h4>
+            <p class="parrafo">"Estudiante SENA"</p>
+          </div>
+
+          <div class="col-lg-4">
+            <img src="./Img/Sharon_photos.jpg" class="img-filter img-fluid" alt="sharon_photo">
+            <h4 class="text-bold">Sharon Osorno</h4>
+            <p class="parrafo">"Estudiante SENA"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <button type="button" class=" border-0 iconContact" data-toggle="modal" data-target="#contact"> 
+      <i role="button" class="fas fa-headset text-white"></i>
+     </button>
+     
+     <!-- Modal -->
+     <div class="modal fade" id="contact" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-hidden="true">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="staticBackdropLabel"></h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+               <form id="contactForm" class="row justify-content-center align-items-center" >
+                   <div class="col-12 btn-contact py-4 mb-3">
+                     <div class=" justify-content-center text-center text-white" >
+                       <h4 class="text-bold">¿Podemos ayudarte en algo?</h4>
+                       <p class="subtitle">Con gusto te asesoramos</p>
+                     </div>  
+                   </div>
+                   <div class="col-12"> 
+                     <div class="form-group ">
+                       <label for="Name" class="parrafo">Nombre y apellidos</label>
+                       <input required type="text" class="form-control parrafo" placeholder="Nombre y apellidos">
+                     </div>
+                     <div class="form-group ">
+                       <label for="Email" class="parrafo">Email</label>
+                       <input required type="email" class="form-control parrafo"  placeholder="Email">
+                     </div>
+                     <div class="form-group ">
+                       <label for="Coment" class="parrafo">Comentario</label>
+                       <textarea type="text" class="form-control parrafo" cols="0" rows="0" placeholder="Escribe tu comentario..."></textarea>
+                     </div>
+                     <div class="form-group text-center">
+                       <div class="form-check">
+                         <input required class="form-check-input" type="checkbox" id="gridCheck">
+                         <label class="form-check-label parrafo" for="gridCheck">
+                           Acepto la <a href="#" class="privacidad text-decoration-none text-bold ">politica de privacidad</a>
+                         </label>
+                       </div>
+                       <button type="submit" class="btn btn-contact text-white parrafo mt-3">Enviar</button> 
+                     </div> 
+                   </div>
+                 </form>
+           </div>
+         </div>
+       </div>
+     </div>
+
+    <!-- footer-->
+    <section class="footer">
+      <div class="container">
+        <footer  class="row p-3 mt-5 justify-content-around align-items-center"> 
+          <div>
+            <picture>
+              <img class="img-fluid logo" src="./Img/Logo responsive white.png" alt="Cientonce">
+            </picture>
+          </div> 
+
+          <div class>
+            <span class="text-white text-center">&copy;2020<b>Cientonce</b></span>
+          </div>
+          
+          <div class=>
+            <a href="https://es-la.facebook.com"><i class="fab fa-facebook-f text-white "></i></a>
+            <a href="https://twitter.com/?lang=es"> <i class="fab fa-twitter text-white mx-3"></i> </a>
+            <a href="#"><i class="fab fa-youtube text-white"></i> </a>  
+          </div> 
+        </footer>
+      </div>
+    </section>
+        
+   
+  
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

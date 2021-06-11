@@ -1,0 +1,72 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+:root{
+  --bg-footer: #000000;
+  --bg-footer-two: #7963A8;
+  --bg-purple:#76448A;
+  --bg-rose:#ed3d3d;
+  --bg-white: #ffffff;
+  --color-grey:#706F6F;
+  --colo-blue:#324798;
+}
+
+@font-face{/*titulos*/
+  src: url(../Font/d-din/D-DIN-Bold.otf);
+  font-family: "DIN-Bold";
+  font-weight: normal;
+}
+@font-face{ /*subtitulo*/
+  src: url(../Font/d-din/D-DIN-Italic.otf);
+  font-family: "DIN-Italic";
+  font-weight: normal;
+}
+@font-face{
+  src: url(../Font/Helvetica-Font/Helvetica.ttf);
+  font-family:"Helvetica-Regular";
+  font-weight: normal;
+}
+  
+.text-bold{
+font-family: DIN-Bold;
+}
+.subtitle{
+font-family: DIN-Italic;
+}
+.parrafo{
+font-family: Helvetica-Regular;
+}      
+.home{
+background-color: var(--bg-white);
+}
+.logo{
+  width: 3em;
+}
+.article-tittle{
+ color:var(--bg-purple);
+}
+.flechas {
+  color: var(--bg-purple);
+}
+.text{
+  color:var(--bg-footer);
+}   
+body{
+  background-image: url(../Img/backgroundhud.jpg);    
+  background-size: 700px;
+}
+.footer{
+    background: var(--bg-footer-two);
+}
+.icon-text{
+    font-size: 20px;
+}
+
+
+
+
+
