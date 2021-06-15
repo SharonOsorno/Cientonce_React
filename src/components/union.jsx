@@ -10,8 +10,9 @@ import seccion3 from "../components/seccion3"
 const Union = () => {
     return (
         <section>
-            <Seccion1 />
-       Photo = {inicio}
+            <seccion1
+            photo = {inicio} />
+       
         
         </section>
      
