@@ -1,10 +1,12 @@
  import "../styles/main-comic.css";
- const Seccion1 = ({ photo }) => {
+ //image
+ import  banner from"../images/banner_004.jpeg";
+ const Seccion1 = () => {
     return (
         <section>
         <div>
             <picture>
-                <img  src={photo} className= "img-fluid" alt="Banner_publicitario"/>
+                <img  src={banner}  className= "img-fluid" alt="Banner_publicitario"/>
             </picture>
         </div>
     </section>  

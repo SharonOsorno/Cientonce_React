@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import  './components/union';
-
+import Union from './components/union';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <union/>
+    <Union
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
