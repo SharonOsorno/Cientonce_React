@@ -1,12 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//styles
+import './styles/main.css';
+
+
+
+
+// componentes
+import Text_about from './components/about_us'
+import Menu from './components/menu'
+import Footer from './components/Footer'
+import We from './components/we'
+
+
+
+   
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    < Menu />
+     
+     < Text_about />
+     <We />
+
+     <Footer />
+
   </React.StrictMode>,
   document.getElementById('root')
 );

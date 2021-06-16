@@ -5,17 +5,17 @@
 }
 
 @font-face{/*titulos*/
-  src: url(../Font/d-din/D-DIN-Bold.otf);
+  src: url(../font/d-din/D-DIN-Bold.otf);
   font-family: "DIN-Bold";
   font-weight: normal;
 }
 @font-face{ /*subtitulo*/
-  src: url(../Font/d-din/D-DIN-Italic.otf);
+  src: url(../font/d-din/D-DIN-Italic.otf);
   font-family: "DIN-Italic";
   font-weight: normal;
 }
 @font-face{
-  src: url(../Font/Helvetica-Font/Helvetica.ttf);
+  src: url(../font/Helvetica-Font/Helvetica.ttf);
   font-family:"Helvetica-Regular";
   font-weight: normal;
 }
