@@ -13,19 +13,18 @@ import Text_about from './components/about_us'
 import Menu from './components/menu'
 import Footer from './components/Footer'
 import We from './components/we'
-
-
+import Carousel from './components/carousel'
+import Contact from './components/contact'
 
    
 ReactDOM.render(
   <React.StrictMode>
-    < Menu />
-     
-     < Text_about />
+     <Menu />
+     <Carousel />
+     <Text_about />
      <We />
-
+     <Contact />  
      <Footer />
-
   </React.StrictMode>,
   document.getElementById('root')
 );
