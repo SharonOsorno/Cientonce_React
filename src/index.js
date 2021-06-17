@@ -4,12 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Bannerprincipal from './components/Bannerprincipal';
 import Aboutspacerose from './components/aboutspacerose.jsx';
+import Personajes from './components/personajes'
 
 ReactDOM.render(
   <React.StrictMode>
     
     <Bannerprincipal/>
     <Aboutspacerose/>
+    <Personajes/>
 
   
   </React.StrictMode>,

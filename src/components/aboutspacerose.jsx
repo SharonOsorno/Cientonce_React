@@ -2,7 +2,8 @@ import "../styles/main-comic.css";
 
 
 const Aboutspacerose = () => {
-return(<section className="py-5 mb-5 about">
+return(
+<section className="py-5 mb-5 about">
 <h3 className="text-center text-white py-3 text-bold">Sobre SpaceROSE</h3>
 <div className="container">
     <div className="row align-items-center  justify-content-center">        
