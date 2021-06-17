@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Union from './components/union';
 import reportWebVitals from './reportWebVitals';
+import Bannerprincipal from './components/Bannerprincipal';
+import Aboutspacerose from './components/aboutspacerose.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Union
-    />
+    
+    <Bannerprincipal/>
+    <Aboutspacerose/>
+
+  
   </React.StrictMode>,
   document.getElementById('root')
 );
