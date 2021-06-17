@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Bannerprincipal from './components/Bannerprincipal';
 import Aboutspacerose from './components/aboutspacerose.jsx';
-import Personajes from './components/personajes'
+import Personajes from './components/personajes.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
