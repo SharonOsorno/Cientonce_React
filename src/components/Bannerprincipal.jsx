@@ -1,6 +1,6 @@
  import "../styles/main-comic.css";
  //image
- import  banner from"../images/banner_004.jpeg";
+ import  banner from"../images/banner_003.jpg";
  const Bannerprincipal = () => {
     return (
         <section>

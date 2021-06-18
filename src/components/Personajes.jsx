@@ -8,7 +8,7 @@ import Text_personajes from "./text_personajes";
 
 const Personajes = () => {
   return (
-    <section className="container py-5">
+    <section className="py-5">
       <Text_personajes />
       <div className="row justify-content-center ">
         <article
