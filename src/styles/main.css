@@ -50,6 +50,9 @@ font-family: Helvetica-Regular;
   background: var(--color-contact);
   border: none;
 }
+.flecha{
+  color: blue;
+}
 .section_video{
   background-color: var(--bg-purple);
 }
