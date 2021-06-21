@@ -6,68 +6,47 @@ import Text_personajes from "./text_personajes";
 
 const Personajes = () => {
   return (
-<<<<<<< HEAD
-    
-=======
-    <section >
-      <Text_personajes />
-      <div className="container">
-
-        <article >
+<section>
+        <Text_personajes/>
+        <div className="container py-5">
+          <div className="row justify-content-center ">
           <Cards
-            photo={Personaje_mujer}
-            title="Katherine Johnson"
-            text=" Matemática NASA"
-          />
-        </article>
+       photo={Personaje_mujer}
+       title="Katherine Johnson"
+       text=" Matemática NASA"
+     />
+      <Cards
+       photo={Personaje_hombre}
+       title="Eugene Kranz"
+       text=" Director Vuelo/Equipo Blanco"
+     />
+     <Cards
+       photo={Personaje_hombre}
+       title="Serguéi Koroliov"
+       text=" Científico"
+     />
 
-        <article>
+          </div>
+          <div className="row justify-content-center ">
           <Cards
-            photo={Personaje_hombre}
-            title="Eugene Kranz"
-            text=" Director Vuelo/Equipo Blanco"
-          />
-        </article>
+       photo={Personaje_hombre}
+       title="Neil Armstrong"
+       text=" Astronauta"
+     />
+      <Cards
+       photo={Personaje_hombre}
+       title="Buzz Aldrin"
+       text=" Ingeniero/Astronauta"
+     />
+     <Cards
+       photo={Personaje_hombre}
+       title="Michael Collins"
+       text=" Astronauta"
+     />
 
-        <article>
-          <Cards
-            photo={Personaje_hombre}
-            title="Serguéi Koroliov"
-            text=" Científico"
-          />
-        </article>
-
-      
-      
-        <article>
-          <Cards
-            photo={Personaje_hombre}
-            title="Neil Armstrong"
-            text=" Astronauta"
-          />
-        </article>
-
-        <article>
-          <Cards
-            photo={Personaje_hombre}
-            title="Buzz Aldrin"
-            text=" Ingeniero/Astronauta"
-          />
-        </article>
-
-        <article>
-          <Cards
-            photo={Personaje_hombre}
-            title="Michael Collins"
-            text=" Astronauta"
-          />
-        </article>
-        
-      </div>
-
-
->>>>>>> 44796a7c5b62f8c38041e2bbc5438236e86641da
-    </section>
+          </div>
+          </div>
+          </section>
     
            
 

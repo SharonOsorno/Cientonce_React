@@ -1,11 +1,9 @@
 import "../styles/main-comic.css";
+//mt-5 border-0  p-3 mb-5 
 const Cards = ({ photo, title, text }) => {
     return (
-<<<<<<< HEAD
-      <article className="card-body text-center content-zoom  shadow-lg  mb-7">
-=======
-      <article className="mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center">
->>>>>>> 44796a7c5b62f8c38041e2bbc5438236e86641da
+<article className="mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center">
+
         <picture>
           <img src={photo} className="img-personaje rounded-circle img-fluid  " alt="Img-nav" />
         </picture>
