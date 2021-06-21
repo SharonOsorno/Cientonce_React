@@ -6,10 +6,10 @@ import Text_personajes from "./text_personajes";
 
 const Personajes = () => {
   return (
-<section>
+    <section>
         <Text_personajes/>
         <div className="container py-5">
-          <div className="row justify-content-center ">
+          <div className="row justify-content-center  ">
           <Cards
        photo={Personaje_mujer}
        title="Katherine Johnson"
@@ -46,7 +46,8 @@ const Personajes = () => {
 
           </div>
           </div>
-          </section>
+
+    </section>
     
            
 

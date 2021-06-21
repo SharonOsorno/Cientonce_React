@@ -75,5 +75,7 @@ background:  #5b22af;
   box-shadow: 0 1rem 3rem;
   transition: all;
 }
-
+.cardstyle{
+  width: 18rem;
+}
 
