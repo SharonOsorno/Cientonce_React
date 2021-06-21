@@ -1,6 +1,9 @@
 import Videobanner from '../video/video_banner.mp4'
 import banner_002 from '../images/banner_002.jpg'
 
+//stykes
+import '../styles/main.css'
+
 const Carousel = () => {
     return (
     <section className="slider">    
@@ -22,7 +25,7 @@ const Carousel = () => {
                 </a>
                 <a className="carousel-control-next" href="#carousel" role="button" data-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only">Next</span>
+            <span className="sr-only ">Next</span>
             </a>
             </div>
         </div>

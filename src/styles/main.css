@@ -50,8 +50,16 @@ font-family: Helvetica-Regular;
   background: var(--color-contact);
   border: none;
 }
-.flecha{
-  color: blue;
+.active{
+  color: yellowgreen;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  height: 50px;
+  width: 50px;  
+  background-color:var(--bg-purple);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  
 }
 .section_video{
   background-color: var(--bg-purple);
