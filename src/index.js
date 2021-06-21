@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Bannerprincipal from './components/Bannerprincipal';
-import Aboutspacerose from './components/aboutspacerose.jsx';
+import Aboutspacerose from './components/Aboutspacerose.jsx';
 import Personajes from './components/Personajes.jsx'
 
 ReactDOM.render(
