@@ -50,15 +50,19 @@ font-family: Helvetica-Regular;
   background: var(--color-contact);
   border: none;
 }
-.active{
-  color: yellowgreen;
+.carousel-indicators li {
+  height: 10px;
+  width: 50px;  
+  background-color: var(--bg-purple);
+ 
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
   height: 50px;
   width: 50px;  
   background-color:var(--bg-purple);
-  background-size: 100%, 100%;
-  border-radius: 50%;
+  border-radius: 25%;
+ 
+  
   
 }
 .section_video{
