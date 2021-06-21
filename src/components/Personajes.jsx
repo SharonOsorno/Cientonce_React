@@ -6,70 +6,63 @@ import Text_personajes from "./text_personajes";
 
 const Personajes = () => {
   return (
-    <section className=" py-5">
+    <section >
       <Text_personajes />
-      <div className="row justify-content-center container  ">
-        <article
-          className=" mt-5  border-0  p-3 mb-5 text-center  " 
-          
-        >
+      <div className="container">
+
+        <article >
           <Cards
             photo={Personaje_mujer}
             title="Katherine Johnson"
             text=" Matemática NASA"
           />
         </article>
-        <article
-          className=" mt-5  border-0  p-3 mb-5 text-center   "
-          
-        >
+
+        <article>
           <Cards
             photo={Personaje_hombre}
             title="Eugene Kranz"
             text=" Director Vuelo/Equipo Blanco"
           />
         </article>
-        <article
-          className="mt-5  border-0  p-3 mb-5 text-center  "
-          
-        >
+
+        <article>
           <Cards
             photo={Personaje_hombre}
             title="Serguéi Koroliov"
             text=" Científico"
           />
         </article>
-        <article
-          className=" mt-5  border-0  p-3 mb-5 text-center   "
-          
-        >
+
+      
+      
+        <article>
           <Cards
             photo={Personaje_hombre}
             title="Neil Armstrong"
             text=" Astronauta"
           />
         </article>
-        <article
-          className=" mt-5  border-0  p-3 mb-5 text-center   "
-         
-        >
+
+        <article>
           <Cards
             photo={Personaje_hombre}
             title="Buzz Aldrin"
             text=" Ingeniero/Astronauta"
           />
         </article>
-        <article
-          className=" mt-5  border-0  p-3 mb-5 text-center   "
-         
-        >
+
+        <article>
           <Cards
             photo={Personaje_hombre}
             title="Michael Collins"
             text=" Astronauta"
           />
         </article>
+        
       </div>
+
+
     </section>
   );
 };

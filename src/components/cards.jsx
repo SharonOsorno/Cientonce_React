@@ -1,13 +1,13 @@
 import "../styles/main-comic.css";
 const Cards = ({ photo, title, text }) => {
     return (
-      <article className="card-body text-center content-zoom  shadow-lg ">
+      <article className="mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center">
         <picture>
           <img src={photo} className="img-personaje rounded-circle img-fluid " alt="Img-nav" />
         </picture>
-        <div className="text mb-4">
-          <h4>{title}</h4>
-          <p>{text}</p>
+        <div className="card-body text-center">
+          <h4 classname="subtitle">{title}</h4>
+          <p className="parrafo">{text}</p>
         </div>
         
       </article>
