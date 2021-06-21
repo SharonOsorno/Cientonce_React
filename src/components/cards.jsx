@@ -1,7 +1,7 @@
 import "../styles/main-comic.css";
 const Cards = ({ photo, title, text }) => {
     return (
-      <article className="card-body text-center">
+      <article className="card-body text-center content-zoom shadow-lg">
         <picture>
           <img src={photo} className="img_nav img-fluid pb-5" alt="Img-nav" />
         </picture>

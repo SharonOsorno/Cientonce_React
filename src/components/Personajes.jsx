@@ -12,7 +12,7 @@ const Personajes = () => {
       <Text_personajes />
       <div className="row justify-content-center ">
         <article
-          className=" mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center" 
+          className=" mt-5  border-0  mb-5 text-center" 
           
         >
           <Cards
@@ -22,7 +22,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center"
+          className=" mt-5  border-0   mb-5 text-center"
           
         >
           <Cards
@@ -32,7 +32,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center"
+          className=" mt-5  border-0   mb-5 text-center"
           
         >
           <Cards
@@ -42,7 +42,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center"
+          className=" mt-5  border-0   mb-5 text-center"
           
         >
           <Cards
@@ -52,7 +52,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center"
+          className=" mt-5  border-0  mb-5 text-center"
          
         >
           <Cards
@@ -62,7 +62,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0 content-zoom shadow-lg p-3 mb-5 text-center"
+          className=" mt-5  border-0   mb-5 text-center"
          
         >
           <Cards

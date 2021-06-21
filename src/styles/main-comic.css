@@ -62,12 +62,17 @@ background:  #5b22af;
   -webkit-transform: scale(0.2);
   transform: scale(0.8);
   overflow: hidden;
+
 }
 .img-personaje:hover {
   filter: opacity(0.5);
 }
 .footer {
   background:var(--bg-footer);
+}
+
+.shadow.lg {
+  transition: all;
 }
 
 
