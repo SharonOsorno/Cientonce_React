@@ -8,11 +8,11 @@ import Text_personajes from "./text_personajes";
 
 const Personajes = () => {
   return (
-    <section className="py-5">
+    <section className=" py-5">
       <Text_personajes />
-      <div className="row justify-content-center ">
+      <div className="row justify-content-center container  ">
         <article
-          className=" mt-5  border-0  mb-5 text-center" 
+          className=" mt-5  border-0  p-3 mb-5 text-center  " 
           
         >
           <Cards
@@ -22,7 +22,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0   mb-5 text-center"
+          className=" mt-5  border-0  p-3 mb-5 text-center   "
           
         >
           <Cards
@@ -32,7 +32,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0   mb-5 text-center"
+          className="mt-5  border-0  p-3 mb-5 text-center  "
           
         >
           <Cards
@@ -42,7 +42,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0   mb-5 text-center"
+          className=" mt-5  border-0  p-3 mb-5 text-center   "
           
         >
           <Cards
@@ -52,7 +52,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0  mb-5 text-center"
+          className=" mt-5  border-0  p-3 mb-5 text-center   "
          
         >
           <Cards
@@ -62,7 +62,7 @@ const Personajes = () => {
           />
         </article>
         <article
-          className=" mt-5  border-0   mb-5 text-center"
+          className=" mt-5  border-0  p-3 mb-5 text-center   "
          
         >
           <Cards
