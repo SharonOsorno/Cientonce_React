@@ -5,13 +5,21 @@ import reportWebVitals from './reportWebVitals';
 import Bannerprincipal from './components/Bannerprincipal';
 import Aboutspacerose from './components/Aboutspacerose.jsx';
 import Personajes from './components/Personajes.jsx'
+import Menu from './components/menu'
+import Footer from './components/Footer'
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <Menu/>
     
     <Bannerprincipal/>
     <Aboutspacerose/>
     <Personajes/>
+    <Footer/>
+    
+    
+
 
   
   </React.StrictMode>,
