@@ -7,15 +7,18 @@ import Menu from './components/menu';
 import Footer from './components/Footer';
 import Carrusel from './components/carrusel';
 import Articulos from './components/articulos';
+import Modal from './components/modal';
 
 
 ReactDOM.render(
   <React.StrictMode>
 
     <Menu/>
-    <Footer/>
+    <Modal/>
     <Carrusel/>
     <Articulos/>
+    <Footer/>
+    
 
   </React.StrictMode>,
   document.getElementById('root')
