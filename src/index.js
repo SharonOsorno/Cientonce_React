@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Menu from './components/menu';
 import Footer from './components/Footer';
+import Carrusel from './components/carrusel';
 
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
 
     <Menu/>
     <Footer/>
+    <Carrusel/>
 
   </React.StrictMode>,
   document.getElementById('root')
