@@ -10,6 +10,8 @@ ReactDOM.render(
   <React.StrictMode>
 
     <Menu/>
+    <Footer/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
