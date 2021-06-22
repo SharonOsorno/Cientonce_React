@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Menu from './components/menu';
+import Footer from './components/Footer';
 
 
 ReactDOM.render(
