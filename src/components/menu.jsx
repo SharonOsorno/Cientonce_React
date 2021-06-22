@@ -1,5 +1,5 @@
 import Logo from '../images/Logo responsive white.png'
-import Modal from "../components/modal";
+import Modal from "./modal";
 
 const Menu = () => {
   return (
