@@ -2,12 +2,15 @@ import Personaje_hombre from "../images/Personaje_002.jpg";
 import Personaje_mujer from "../images/personaje_001.jpg";
 //componentes
 import Cards from "./cards";
-import Text_personajes from "./text_personajes";
+
 
 const Personajes = () => {
   return (
     <section>
-        <Text_personajes/>
+        <div className="py-5 mb-5 about">
+          <h3 className="text-center text-white py-3 text-bold">Personajes</h3>
+      </div>
+   
         <div className="container py-5">
           <div className="row justify-content-center  ">
           <Cards

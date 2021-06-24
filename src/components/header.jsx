@@ -1,7 +1,7 @@
 import Logo from '../images/Logo responsive white.png'
-import Modal from "../components/modal";
+import Modal from "./modal";
 
-const Menu = () => {
+const Header = () => {
   return (
     <section className="home">
       <header className="container py-2">
@@ -66,4 +66,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Header;

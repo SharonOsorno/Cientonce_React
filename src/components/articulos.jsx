@@ -1,5 +1,5 @@
 
-import GradientTshirt from '../images/Img/mock up1.png';
+//import GradientTshirt from '../images/Img/mock up1.png';
 import Chompa from '../images/chompa.png';
 import BlackTshirt from '../images/nuevo formato tshirt.png';
 import WhiteTshirt from '../images/nuevo formato tshirt white.png';
@@ -15,7 +15,7 @@ const Articulos = () => {
             <div className="col-lg-4 col-md-6 mb-4">
 
                 <div className="card h-100">
-                    <a href="#"><img src={GradientTshirt} alt="articulo1"/></a>
+                    <a href="#"><img src={Chompa} alt="articulo1"/></a>
                     <div className="card-body">
                         <h4 className="card-title">
                             <a className="article-tittle text-bold" href="#">Gradient T-shirt</a>
