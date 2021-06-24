@@ -1,3 +1,4 @@
+import {Link } from "react-router-dom";
 import Logo from '../images/Logo responsive white.png'
 import Modal from "./modal";
 
@@ -24,28 +25,19 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="mainMenu">
             <ul className="navbar-nav ml-auto menu">
               <li className="nav-item">
-                <a
-                  className="nav-link  mr-5 text-white text-bold"
-                  href="./index.html"
-                >
-                  Home
-                </a>
+              <link className="nav-link  mr-5 text-white text-bold "aria-current="page" to ="/">
+              Home
+              </link>
               </li>
               <li className="nav-item ">
-                <a
-                  className="nav-link  mr-5 text-white text-bold"
-                  href="./index-comic.html"
-                >
-                  Comic
-                </a>
+              <link className="nav-link  mr-5 text-white text-bold "aria-current="page" to ="/Comic">
+              Comic
+              </link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link  mr-5 text-white text-bold"
-                  href="./index-shop.html"
-                >
-                  Tienda
-                </a>
+              <link className="nav-link  mr-5 text-white text-bold "aria-current="page" to ="/Tienda">
+             Tienda
+              </link>
               </li>
               <li className="nav-item">
                 <button

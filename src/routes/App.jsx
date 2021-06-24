@@ -1,15 +1,16 @@
 //Dependientes
-//import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
   
 
 
 
 //componentes Pages
-import Home from "../pages/home";
-import Comic from "../pages/Comic";
-import Shop from "../pages/shop";
+import Home from "../Pages/home"
+import Comic from "../Pages/comic"
+import Shop from "../Pages/shop";
 import Header from "../components/header";
-import Footer from "../components/footer";
+import Footer from "../components/Footer"
+
 
 
 
@@ -20,8 +21,8 @@ const App = () => {
         <Header />
          <Switch>
              <Route exact path="/" component={Home}/>
-             <Route exact path="/" component={Comic}/>
-             <Route exact path="/" component={Shop}/>
+             <Route exact path="/Comic" component={Comic}/>
+             <Route exact path="/Shop" component={Shop}/>
          </Switch>
          <Footer/>
      </Router>
