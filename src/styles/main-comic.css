@@ -4,17 +4,17 @@
   text-decoration: none;
 }
 @font-face{/*titulos*/
-  src: url(../Font/d-din/D-DIN-Bold.otf);
+  src: url(../font/d-din/D-DIN-Bold.otf);
   font-family: "DIN-Bold";
   font-weight: normal;
 }
 @font-face{ /*subtitulo*/
-  src: url(../Font/d-din/D-DIN-Italic.otf);
+  src: url(../font/d-din/D-DIN-Italic.otf);
   font-family: "DIN-Italic";
   font-weight: normal;
 }
 @font-face{
-  src: url(../Font/Helvetica-Font/Helvetica.ttf);
+  src: url(../font/Helvetica-Font/Helvetica.ttf);
   font-family:"Helvetica-Regular";
   font-weight: normal;
 }
@@ -62,11 +62,20 @@ background:  #5b22af;
   -webkit-transform: scale(0.2);
   transform: scale(0.8);
   overflow: hidden;
+
 }
 .img-personaje:hover {
   filter: opacity(0.5);
 }
 .footer {
   background:var(--bg-footer);
+}
+
+.shadow.lg {
+  box-shadow: 0 1rem 3rem;
+  transition: all;
+}
+.cardstyle{
+  width: 18rem;
 }
 

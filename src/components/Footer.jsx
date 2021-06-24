@@ -1,6 +1,5 @@
 import Logofooter from '../images/Logo responsive white.png'
 
-
 const Footer = () => {
   return (
     <section class="footer">

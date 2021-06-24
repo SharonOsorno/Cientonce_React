@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Bannerprincipal from './components/Bannerprincipal';
+import Aboutspacerose from './components/Aboutspacerose.jsx';
+import Personajes from './components/Personajes.jsx'
+import Menu from './components/menu'
+import Footer from './components/Footer'
+
 
 //styles
 import './styles/main.css'
@@ -19,12 +26,23 @@ import Contact from './components/contact'
    
 ReactDOM.render(
   <React.StrictMode>
-     <Menu />
+  
      <Carousel />
      <Text_about />
      <We />
      <Contact />  
      <Footer />
+    <Menu/>
+    
+    <Bannerprincipal/>
+    <Aboutspacerose/>
+    <Personajes/>
+    <Footer/>
+    
+    
+
+
+  
   </React.StrictMode>,
   document.getElementById('root')
 );
