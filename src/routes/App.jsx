@@ -5,11 +5,11 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 
 //componentes Pages
-import Home from "../pages/home.jsx"
-import Comic from "../pages/comic.jsx"
-import Shop from "../pages/shop.jsx";
+import Home from "../Pages/home.jsx"
+import Comic from "../Pages/comic.jsx"
+import Shop from "../Pages/shop.jsx";
 import Header from "../components/header";
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 
 
 
