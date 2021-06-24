@@ -5,6 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import Bannerprincipal from './components/Bannerprincipal';
 import Aboutspacerose from './components/Aboutspacerose.jsx';
 import Personajes from './components/Personajes.jsx';
+import Menu from './components/menu';
+import Footer from './components/Footer';
+import Carrusel from './components/carrusel';
+import Articulos from './components/articulos';
+import Modal from './components/modal';
+
 
 
 
@@ -43,6 +49,13 @@ ReactDOM.render(
 
 
   
+
+    
+    <Carrusel/>
+    <Articulos/>
+    
+    
+
   </React.StrictMode>,
   document.getElementById('root')
 );
