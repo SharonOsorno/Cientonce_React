@@ -13,11 +13,10 @@ import Modal from './components/modal';
 ReactDOM.render(
   <React.StrictMode>
 
-    <Menu/>
-    <Modal/>
+    
     <Carrusel/>
     <Articulos/>
-    <Footer/>
+    
     
 
   </React.StrictMode>,
