@@ -7,6 +7,7 @@ import Aboutspacerose from './components/Aboutspacerose.jsx';
 import Personajes from './components/Personajes.jsx'
 import Menu from './components/menu'
 import Footer from './components/Footer'
+import Contact from './components/contact'
 
 
 ReactDOM.render(
@@ -16,7 +17,9 @@ ReactDOM.render(
     <Bannerprincipal/>
     <Aboutspacerose/>
     <Personajes/>
+    <Contact/>
     <Footer/>
+
     
     
 
