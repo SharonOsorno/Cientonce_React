@@ -19,7 +19,15 @@ const Articulo_card = ({photo, title, price, text, icon}) => {
                     <p className="card-text parrafo">{text}</p>
                 </div>
                 <div className="card-footer">
-                    <small className="text-muted">{icon}</small>
+                    <button className=""><i class="fas fa-shopping-cart"></i></button>
+                    <div class="ec-stars-wrapper">
+	<a data-value="1" title="Votar con 1 estrellas"><i class="far fa-star"></i></a>
+	<a data-value="2" title="Votar con 2 estrellas"><i class="far fa-star"></i></a>
+	<a data-value="3" title="Votar con 3 estrellas"><i class="far fa-star"></i></a>
+	<a data-value="4" title="Votar con 4 estrellas"><i class="far fa-star"></i></a>
+	<a data-value="5" title="Votar con 5 estrellas"><i class="far fa-star"></i></a>
+</div>
+
                 </div>
             </div>
         </div>
