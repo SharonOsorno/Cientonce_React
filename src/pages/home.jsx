@@ -1,5 +1,5 @@
 import Carousel from "../components/carousel"
-import Text_about from "../components/text_about"
+import About from "../components/about_us"
 import We from "../components/we"
 import Contact from "../components/contact"
 
@@ -8,9 +8,9 @@ return(
 
     <section>
     <Carousel />
-    <Text_about />
+    <About />
     <We />
-     <Contact />  
+    <Contact />  
     </section>
 )
 

@@ -1,6 +1,7 @@
 import Text_about from '../components/text_about'
 import Video from '../video/Spot-Publicitario.mp4'
 import Preload from '../images/preload-cientonce.jpeg'
+
 const About = () => {
   return (
     <section className="section_video py-5">

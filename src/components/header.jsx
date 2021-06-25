@@ -1,4 +1,4 @@
-import {Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Logo from '../images/Logo responsive white.png'
 import Modal from "./modal";
 
@@ -7,13 +7,13 @@ const Header = () => {
     <section className="home">
       <header className="container py-2">
         <nav className="navbar navbar-dark navbar-expand-lg">
-          <a href="./index.html" className="navbar-brand logo">
+          <Link className="navbar-brand logo" to="/">
             <img
               className="img-fluid logo"
               src={Logo}
               alt="Cientoonce"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,19 +25,19 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="mainMenu">
             <ul className="navbar-nav ml-auto menu">
               <li className="nav-item">
-              <link className="nav-link  mr-5 text-white text-bold " to ="/">
+              <Link className="nav-link  mr-5 text-white text-bold " to ="/">
               Home
-              </link>
+              </Link>
               </li>
               <li className="nav-item ">
-              <link className="nav-link  mr-5 text-white text-bold " to ="/comic">
+              <Link className="nav-link  mr-5 text-white text-bold " to ="/comic">
               Comic
-              </link>
+              </Link>
               </li>
               <li className="nav-item">
-              <link className="nav-link  mr-5 text-white text-bold " to ="/tienda">
+              <Link className="nav-link  mr-5 text-white text-bold " to ="/shop">
              Tienda
-              </link>
+              </Link>
               </li>
               <li className="nav-item">
                 <button
