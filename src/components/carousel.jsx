@@ -12,9 +12,9 @@ const Carousel = () => {
             <li data-target="#carousel" data-slide-to="0" className="active"></li>
             <li data-target="#carousel" data-slide-to="1"></li>
             </ol>        
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                <video autoplay src={Videobanner} className="d-block w-100" ></video>
+            <div className="carousel-inner ">
+                <div className="carousel-item  active">
+                <video autoPlay src={Videobanner} className="d-block w-100" ></video>
                 </div>
                 <div className="carousel-item">
                 <img src={banner_002} className="d-block w-100" alt="..." />
