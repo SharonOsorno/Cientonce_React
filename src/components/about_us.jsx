@@ -7,14 +7,14 @@ const About = () => {
     <section className="section_video py-5">
       <div className="container">
         <div className="row align-items-center ">
-          <div className="col-md-6 ">
+          <div className="col-md-6">
             <article>
-              <video  className="embed-responsive embed-responsive-16by9" src={Video} width="560" height="315" controls poster={Preload}></video>
+              <video className="embed-responsive embed-responsive-16by9" src={Video} width="560" height="315" controls poster={Preload}></video>
             </article>
           </div>
           <div className=" col-md-5">
             <article >
-             <Text_about />
+              <Text_about />
             </article>
           </div>
         </div>

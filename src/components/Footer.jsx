@@ -2,15 +2,14 @@ import Logofooter from '../images/Logo responsive white.png'
 
 const Footer = () => {
   return (
-    <section className="footer">
-      <div className="">
+    <section className="footer">      
         <div className="container">
           <footer className="row p-3 justify-content-around align-items-center">
             <div>
               <picture>
                 <img
                   className="img-fluid logo"
-                  src= {Logofooter}
+                  src={Logofooter}
                   alt="Cientonce"
                 />
               </picture>
@@ -26,7 +25,7 @@ const Footer = () => {
               <a href="https://es-la.facebook.com">
                 <i class="fab fa-facebook-f text-white "></i>
               </a>
-              <a href="https://twitter.com/?lang=es">                
+              <a href="https://twitter.com/?lang=es">
                 <i class="fab fa-twitter text-white mx-3"></i>
               </a>
               <a href="https://www.youtube.com/">
@@ -34,10 +33,8 @@ const Footer = () => {
               </a>
             </div>
           </footer>
-        </div>
-      </div>
+        </div>     
     </section>
   );
 };
-
 export default Footer;

@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from '../images/Logo responsive white.png'
 import Modal from "./modal";
 
@@ -25,19 +25,19 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="mainMenu">
             <ul className="navbar-nav ml-auto menu">
               <li className="nav-item">
-              <Link className="nav-link  mr-5 text-white text-bold " to ="/">
-              Home
-              </Link>
+                <Link className="nav-link  mr-5 text-white text-bold " to="/">
+                  Home
+                </Link>
               </li>
               <li className="nav-item ">
-              <Link className="nav-link  mr-5 text-white text-bold " to ="/comic">
-              Comic
-              </Link>
+                <Link className="nav-link  mr-5 text-white text-bold " to="/comic">
+                  Comic
+                </Link>
               </li>
               <li className="nav-item">
-              <Link className="nav-link  mr-5 text-white text-bold " to ="/shop">
-             Tienda
-              </Link>
+                <Link className="nav-link  mr-5 text-white text-bold " to="/shop">
+                  Tienda
+                </Link>
               </li>
               <li className="nav-item">
                 <button
@@ -57,5 +57,4 @@ const Header = () => {
     </section>
   );
 };
-
 export default Header;
