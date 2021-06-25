@@ -6,6 +6,7 @@ import WhiteTshirt from '../images/nuevo formato tshirt white.png';
 import Totebag from '../images/totebag.png';
 import Gorra from '../images/gorra 111.png';
 import Articulo_card from './articulo_card';
+import Tshirt from '../images/mock up1.png';
 
 
 
@@ -18,11 +19,13 @@ const Articulos = () => {
            <div className="row">
 
 
-               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
-               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
-               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
-               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
-               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
+               <Articulo_card photo={Tshirt} title="Gradient T-shirt" text="COP$ 60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
+               <Articulo_card photo={Chompa} title="Gradient Hoddie" text="COP$ 120.000" text="Increible hoddie con degradado de color morado-negro" icon="iconos"/>
+               <Articulo_card photo={BlackTshirt} title="T-shirt Nuevo Formato" text="COP$ 40.000" text="espectacular Camiseta negra nuevo formato" icon="iconos"/>
+               <Articulo_card photo={WhiteTshirt} title="T-shirt Nuevo Formato" text="COP$ 40.000" text="espectacular Camiseta blanca nuevo formato" icon="iconos"/>
+               <Articulo_card photo={Totebag} title="Tote Bag Logo Cientonce" text="COP$ 20.000" text="hermoso bolso ecológico para salir de compras y cuidar el medio ambiente" icon="iconos"/>
+               <Articulo_card photo={Gorra} title="Gorra Logo Cientonce" text="COP$ 25.000" text="linda gorra negra con costuras moradas tipo baceball" icon="iconos"/>
+
 
 
 
@@ -53,98 +56,6 @@ export default Articulos;
 
 
         
-{/*<div className="col-lg-4 col-md-6 mb-4">
-
-    <div className="card ">
-        <a href="#"><img className="card-img-top" src={Chompa} alt="articulo1"/></a>
-        <div className="card-body">
-            <h4 className="card-title">
-                <a className="article-tittle text-bold" href="#">Gradient T-shirt</a>
-            </h4>
-            <h5 className="subtitle">COP$ 60.000</h5>
-            <p className="card-text parrafo">Hermosa camiseta de color degradado azul-morado</p>
-        </div>
-        <div className="card-footer">
-            <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-        </div>
-    </div>
-</div>
-<div className="col-lg-4 col-md-6 mb-4">
-    <div className="card ">
-        <a href="#"><img className="card-img-top"  src={Chompa} alt="articulo2"/></a>
-        <div className="card-body">
-            <h4 className="card-title">
-                <a className="article-tittle text-bold" href="#">Gradient Hoddie</a>
-            </h4>
-            <h5 className="subtitle">COP$ 120.000</h5>
-            <p className="card-text parrafo">Increible hoddie con degradado de color morado-negro </p>
-        </div>
-        <div className="card-footer">
-            <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-        </div>
-    </div>
-</div>
-<div className="col-lg-4 col-md-6 mb-4">
-    <div className="card ">
-        <a href="#"><img className="card-img-top" src={BlackTshirt} alt="articulo3"/></a>
-        <div className="card-body">
-            <h4 className="card-title">
-                <a className="article-tittle text-bold" href="#">T-shirt Nuevo Formato</a>
-            </h4>
-            <h5 className="subtitle">COP$ 40.000</h5>
-            <p className="card-text parrafo"> espectacular Camiseta negra nuevo formato</p>
-        </div>
-        <div className="card-footer">
-            <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-        </div>
-    </div>
-</div>
-<div className="col-lg-4 col-md-6 mb-4">
-    <div className="card">
-        <a href="#"><img className="card-img-top" src={WhiteTshirt} alt="articulo4"/></a>
-        <div className="card-body">
-            <h4 className="card-title">
-                <a className="article-tittle text-bold" href="#">T-shirt Nuevo Formato</a>
-            </h4>
-            <h5 className="subtitle">COP$ 40.000</h5>
-            <p className="card-text parrafo">espectacular Camiseta blanca nuevo formato</p>
-        </div>
-        <div className="card-footer">
-            <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-        </div>
-    </div>
-</div>
-<div className="col-lg-4 col-md-6 mb-4">
-    <div className="card h-100">
-        <a href="#"><img className="card-img-top" src={Totebag} alt="articulo5"/></a>
-        <div className="card-body">
-            <h4 className="card-title">
-                <a className="article-tittle text-bold" href="#">Tote Bag Logo Cientonce</a>
-            </h4>
-            <h5 className="subtitle">COP$ 20.000</h5>
-            <p className="card-text parrafo">hermoso bolso ecológico para salir de compras y cuidar el medio ambiente</p>
-        </div>
-        <div className="card-footer">
-            <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-        </div>
-    </div>
-</div>
-<div className="col-lg-4 col-md-6 mb-4">
-    <div className="card ">
-        <a href="#"><img className="card-img-top"  src={Gorra} alt="articulo6"/></a>
-        <div className="card-body">
-            <h4 className="card-title">
-                <a className="article-tittle text-bold" href="#">Gorra Logo Cientonce</a>
-            </h4>
-            <h5 className="subtitle">COP$ 25.000</h5>
-            <p className="card-text parrafo">linda gorra negra con costuras moradas tipo baceball</p>
-        </div>
-        <div className="card-footer">
-            <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-        </div>
-    </div>
-</div>
-</div>*/}
 
 
 
