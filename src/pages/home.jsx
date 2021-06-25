@@ -6,7 +6,7 @@ import Contact from "../components/contact"
 const Home = () => {
 return(
 
-    <section>
+    <section className="mb-5">
     <Carousel />
     <About />
     <We />

@@ -7,7 +7,7 @@ import "../styles/main-comic.css"
 const Comic = () => {
     return(
     
-    <section>
+    <section className="mb-5">
        <Bannerprincipal/>
        <Aboutspacerose/>
        <Personajes/> 
