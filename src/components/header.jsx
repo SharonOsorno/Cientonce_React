@@ -25,17 +25,17 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="mainMenu">
             <ul className="navbar-nav ml-auto menu">
               <li className="nav-item">
-              <link className="nav-link  mr-5 text-white text-bold "aria-current="page" to ="/">
+              <link className="nav-link  mr-5 text-white text-bold " to ="/">
               Home
               </link>
               </li>
               <li className="nav-item ">
-              <link className="nav-link  mr-5 text-white text-bold "aria-current="page" to ="/Comic">
+              <link className="nav-link  mr-5 text-white text-bold " to ="/comic">
               Comic
               </link>
               </li>
               <li className="nav-item">
-              <link className="nav-link  mr-5 text-white text-bold "aria-current="page" to ="/Tienda">
+              <link className="nav-link  mr-5 text-white text-bold " to ="/tienda">
              Tienda
               </link>
               </li>

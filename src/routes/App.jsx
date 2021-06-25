@@ -5,11 +5,11 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 
 //componentes Pages
-import Home from "../Pages/home.jsx"
-import Comic from "../Pages/comic.jsx"
-import Shop from "../Pages/shop.jsx";
+import Home from "../pages/home"
+import Comic from "../pages/comic"
+import Shop from "../pages/shop";
 import Header from "../components/header";
-import Footer from "../components/Footer"
+import Footer from "../components/footer"
 
 
 
@@ -20,9 +20,9 @@ const App = () => {
      <Router>
         <Header />
          <Switch>
-             <Route exact path="/" component={Home}/>
-             <Route exact path="/Comic" component={Comic}/>
-             <Route exact path="/Shop" component={Shop}/>
+             <Route exact path= "/" component={Home}/>
+             <Route exact path= "/Comic" component={Comic}/>
+             <Route exact path= "/Shop" component={Shop}/>
          </Switch>
          <Footer/>
      </Router>
