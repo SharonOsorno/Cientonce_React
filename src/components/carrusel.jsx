@@ -8,7 +8,7 @@
 
     <div className="col-lg-12">
 
-        <div id="carousel" className="carousel slide my-4" data-ride="carousel">
+        <div id="carousel" className="carousel slide mb-4" data-ride="carousel">
 
             <ol className="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0" class="active" ></li>
