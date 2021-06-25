@@ -18,7 +18,7 @@ const Articulos = () => {
                 <Articulo_card photo={BlackTshirt} title="T-shirt Nuevo Formato" price="COP$ 40.000" text="Espectacular Camiseta negra nuevo formato."/>
                 <Articulo_card photo={WhiteTshirt} title="T-shirt Nuevo Formato" price="COP$ 40.000" text="Espectacular Camiseta blanca nuevo formato."/>
                 <Articulo_card photo={Totebag} title="Tote Bag Logo Cientonce" price="COP$ 20.000" text="Hermoso bolso ecológico para salir de compras y cuidar el medio ambiente."/>
-                <Articulo_card photo={Gorra} title="Gorra Logo Cientonce" price="COP$ 25.000" text="Linda gorra negra con costuras moradas tipo baceball."/>
+                <Articulo_card photo={Gorra} title="Gorra Logo Cientonce" price="COP$ 25.000" text="Linda gorra negra con costuras moradas tipo baseball."/>
             </div>
         </div>
     );
