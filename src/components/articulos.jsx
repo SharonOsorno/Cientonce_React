@@ -5,17 +5,55 @@ import BlackTshirt from '../images/nuevo formato tshirt.png';
 import WhiteTshirt from '../images/nuevo formato tshirt white.png';
 import Totebag from '../images/totebag.png';
 import Gorra from '../images/gorra 111.png';
+import Articulo_card from './articulo_card';
+
 
 
 const Articulos = () => {
 
     return (
 
-        <div className="container">
+       <div className="container">
 
-<div className = "row">
+           <div className="row">
 
-<div className="col-lg-4 col-md-6 mb-4">
+
+               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
+               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
+               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
+               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
+               <Articulo_card photo={Chompa} title="Gradient T-shirt" text="60.000" text="Hermosa camiseta de color degradado azul-morado" icon="iconos"/>
+
+
+
+
+
+
+           </div>
+
+
+
+
+
+
+       </div>
+        
+);
+
+};
+
+export default Articulos;
+
+
+
+
+
+
+            
+
+
+        
+{/*<div className="col-lg-4 col-md-6 mb-4">
 
     <div className="card ">
         <a href="#"><img className="card-img-top" src={Chompa} alt="articulo1"/></a>
@@ -106,30 +144,7 @@ const Articulos = () => {
         </div>
     </div>
 </div>
-</div>
-
-
-
-
-
-        </div>
-        
-);
-
-};
-
-export default Articulos;
-
-
-
-
-
-
-            
-
-
-        
-
+</div>*/}
 
 
 
