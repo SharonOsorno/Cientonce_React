@@ -54,7 +54,7 @@ const Articulos = () => {
                 <a className="article-tittle text-bold" href="#">T-shirt Nuevo Formato</a>
             </h4>
             <h5 className="subtitle">COP$ 40.000</h5>
-            <p className="card-text parrafo">Camiseta negra nuevo formato</p>
+            <p className="card-text parrafo"> espectacular Camiseta negra nuevo formato</p>
         </div>
         <div className="card-footer">
             <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -69,7 +69,7 @@ const Articulos = () => {
                 <a className="article-tittle text-bold" href="#">T-shirt Nuevo Formato</a>
             </h4>
             <h5 className="subtitle">COP$ 40.000</h5>
-            <p className="card-text parrafo">Camiseta blanca nuevo formato</p>
+            <p className="card-text parrafo">espectacular Camiseta blanca nuevo formato</p>
         </div>
         <div className="card-footer">
             <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -99,7 +99,7 @@ const Articulos = () => {
                 <a className="article-tittle text-bold" href="#">Gorra Logo Cientonce</a>
             </h4>
             <h5 className="subtitle">COP$ 25.000</h5>
-            <p className="card-text parrafo">gorra negra con costuras moradas tipo baceball</p>
+            <p className="card-text parrafo">linda gorra negra con costuras moradas tipo baceball</p>
         </div>
         <div className="card-footer">
             <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
