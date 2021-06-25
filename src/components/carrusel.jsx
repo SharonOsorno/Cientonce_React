@@ -19,7 +19,7 @@
             <div className="carousel-inner" role="listbox">
 
                 <div className="carousel-item active"> 
-                <video rounded autoplay loop muted  src={Video} className="d-block w-100"></video>
+                <video autoPlay rounded loop muted  src={Video} className="d-block w-100"></video>
                 </div>
                 <div className="carousel-item">
                     <img className="d-block img-fluid rounded" src={ImageComingsoon} alt="Second slide" />
