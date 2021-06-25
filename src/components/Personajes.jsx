@@ -7,21 +7,21 @@ import Cards from "./cards";
 const Personajes = () => {
   return (
     <section>
-        <div className="py-5 mb-5 about">
+        <div className="about">
           <h3 className="text-center text-white py-3 text-bold">Personajes</h3>
       </div>
    
-        <div className="container py-5">
-          <div className="row justify-content-center  ">
+        <div className="container mt-5">
+          <div className="row justify-content-center">
           <Cards
-       photo={Personaje_mujer}
-       title="Katherine Johnson"
-       text=" Matemática NASA"
+           photo={Personaje_mujer}
+           title="Katherine Johnson"
+           text=" Matemática NASA"
      />
       <Cards
-       photo={Personaje_hombre}
-       title="Eugene Kranz"
-       text=" Director Vuelo/Equipo Blanco"
+         photo={Personaje_hombre}
+         title="Eugene Kranz"
+         text=" Director Vuelo/Equipo Blanco"
      />
      <Cards
        photo={Personaje_hombre}

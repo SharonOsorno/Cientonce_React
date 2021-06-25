@@ -2,7 +2,7 @@
 
 
 
-const Articulo_card = ({photo, title, text,icon}) => {
+const Articulo_card = ({photo, title, price, text, icon}) => {
 
     return (
 
@@ -15,7 +15,7 @@ const Articulo_card = ({photo, title, text,icon}) => {
                     <h4 className="card-title">
                         <a className="article-tittle text-bold" href="#">{title}</a>
                     </h4>
-                    <h5 className="subtitle">{text}</h5>
+                    <h5 className="subtitle">{price}</h5>
                     <p className="card-text parrafo">{text}</p>
                 </div>
                 <div className="card-footer">
