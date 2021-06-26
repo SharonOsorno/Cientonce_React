@@ -1,4 +1,4 @@
-const Form_contact = () => {
+const FormContact = () => {
   return (
     <form id="contactForm" className="row justify-content-center align-items-center" >
       <div className="col-12 btn-contact py-4 mb-3">
@@ -9,15 +9,15 @@ const Form_contact = () => {
       </div>
       <div className="col-12">
         <div className="form-group">
-          <label for="Name" className="parrafo">Nombre y apellidos</label>
+          <label for="name" className="parrafo">Nombre y apellidos</label>
           <input required type="text" className="form-control parrafo" placeholder="Nombre y apellidos" />
         </div>
         <div className="form-group ">
-          <label for="Email" className="parrafo">Email</label>
+          <label for="email" className="parrafo">Email</label>
           <input required type="email" className="form-control parrafo" placeholder="Email" />
         </div>
         <div className="form-group ">
-          <label for="Coment" className="parrafo">Comentario</label>
+          <label for="coment" className="parrafo">Comentario</label>
           <textarea type="text" className="form-control parrafo" cols="0" rows="0" placeholder="Escribe tu comentario..."></textarea>
         </div>
         <div className="form-group text-center">
@@ -33,4 +33,4 @@ const Form_contact = () => {
     </form>
   )
 }
-export default Form_contact;
+export default FormContact;

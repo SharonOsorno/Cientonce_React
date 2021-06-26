@@ -1,4 +1,4 @@
-import Text_about from '../components/text_about'
+import TextAbout from '../components/textAbout'
 import Video from '../video/Spot-Publicitario.mp4'
 import Preload from '../images/preload-cientonce.jpeg'
 
@@ -12,9 +12,9 @@ const About = () => {
               <video className="embed-responsive embed-responsive-16by9" src={Video} width="560" height="315" controls poster={Preload}></video>
             </article>
           </div>
-          <div className=" col-md-5">
+          <div className="col-md-5">
             <article >
-              <Text_about />
+              <TextAbout />
             </article>
           </div>
         </div>
