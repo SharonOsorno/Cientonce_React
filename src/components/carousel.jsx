@@ -28,5 +28,5 @@ const Carousel = () => {
             </div>
         </section>
     )
-};
+}
 export default Carousel;
