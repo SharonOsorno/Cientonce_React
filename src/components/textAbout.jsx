@@ -1,4 +1,4 @@
-const Text_about = () => {
+const TextAbout = () => {
   return (
 
     <div>
@@ -16,4 +16,4 @@ const Text_about = () => {
     </div>
   );
 };
-export default Text_about;
+export default TextAbout;
