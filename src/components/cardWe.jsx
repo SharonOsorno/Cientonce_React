@@ -7,4 +7,5 @@ const Card = ({ photo, title, text }) => {
         </div>
     )
 }
+
 export default Card;

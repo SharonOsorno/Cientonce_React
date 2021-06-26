@@ -9,6 +9,6 @@ const Bannerprincipal = () => {
                 </picture>
             </div>
         </section>
-    );
-};
+    )
+}
 export default Bannerprincipal;

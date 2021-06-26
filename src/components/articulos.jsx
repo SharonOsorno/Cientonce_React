@@ -1,4 +1,3 @@
-
 import GradientTshirt from '../images/mock up1.png';
 import Chompa from '../images/chompa.png';
 import BlackTshirt from '../images/nuevo formato tshirt.png';
@@ -21,8 +20,8 @@ const Articulos = () => {
                 <ArticuloCard photo={Gorra} title="Gorra Logo Cientonce" price="COP$ 25.000" text="Linda gorra negra con costuras moradas tipo baseball."/>
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default Articulos;
 

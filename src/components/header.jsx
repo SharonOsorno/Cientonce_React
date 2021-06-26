@@ -55,6 +55,6 @@ const Header = () => {
         </nav>
       </header>
     </section>
-  );
-};
+  )
+}
 export default Header;

@@ -1,4 +1,4 @@
-import Card from '../components/card_we'
+import Card from '../components/cardWe'
 import Estefa from '../images/estefa_photo.jpg'
 import Camilo from '../images/camilo-photo.jpg'
 import Sharon from '../images/Sharon_photos.jpg'

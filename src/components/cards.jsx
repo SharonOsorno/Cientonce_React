@@ -10,6 +10,6 @@ const Cards = ({ photo, title, text }) => {
         <p className="parrafo">{text}</p>
       </div>
     </article>
-  );
-};
+  )
+}
 export default Cards;

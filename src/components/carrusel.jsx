@@ -32,8 +32,8 @@
             </a>
         </div>
     </div>
-);
-};
+)
+}
 export default Carrusel;
 
 

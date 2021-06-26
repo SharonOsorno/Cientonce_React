@@ -48,6 +48,6 @@ const Personajes = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 export default Personajes;

@@ -14,6 +14,6 @@ const TextAbout = () => {
         </div>
       </article>
     </div>
-  );
-};
+  )
+}
 export default TextAbout;

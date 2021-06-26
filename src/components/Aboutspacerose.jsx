@@ -18,6 +18,7 @@ const Aboutspacerose = () => {
                 </div>
             </div>
         </section>
-    );
-};
+    )
+}
+
 export default Aboutspacerose;
