@@ -1,65 +1,62 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
   text-decoration: none;
 }
 
-:root{
+:root {
   --bg-footer: #000000;
-  --bg-footer-two: #7963A8;
-  --bg-purple:#76448A;
-  --bg-rose:#ed3d3d;
+  --bg-footer-two: #7963a8;
+  --bg-purple: #76448a;
+  --bg-rose: #ed3d3d;
   --bg-white: #ffffff;
-  --color-grey:#706F6F;
-  --colo-blue:#324798;
+  --color-grey: #706f6f;
+  --colo-blue: #324798;
 }
 
-@font-face{/*titulos*/
+@font-face {
+  /*titulos*/
   src: url(../font/d-din/D-DIN-Bold.otf);
   font-family: "DIN-Bold";
   font-weight: normal;
 }
-@font-face{ /*subtitulo*/
+@font-face {
+  /*subtitulo*/
   src: url(../font/d-din/D-DIN-Italic.otf);
   font-family: "DIN-Italic";
   font-weight: normal;
 }
-@font-face{
+@font-face {
   src: url(../font/Helvetica-Font/Helvetica.ttf);
-  font-family:"Helvetica-Regular";
+  font-family: "Helvetica-Regular";
   font-weight: normal;
 }
-  
-.text-bold{
-font-family: DIN-Bold;
+
+.text-bold {
+  font-family: DIN-Bold;
 }
-.subtitle{
-font-family: DIN-Italic;
+.subtitle {
+  font-family: DIN-Italic;
 }
-.parrafo{
-font-family: Helvetica-Regular;
-} 
-.article-tittle{
- color:var(--bg-purple);
+.parrafo {
+  font-family: Helvetica-Regular;
 }
- 
-.bg-section{
-  background-image: url(../images/backgroundhud.jpg);    
+.article-tittle {
+  color: var(--bg-purple);
+}
+
+.bg-section {
+  background-image: url(../images/backgroundhud.jpg);
   background-size: 700px;
 }
 
-.icon-text{
-    font-size: 20px;
+.icon-text {
+  font-size: 20px;
 }
-.btn_shop{
+.btn_shop {
   padding: 5px 10px;
   border-radius: 10px;
-  border:none;
+  border: none;
   background-color: var(--bg-purple);
-  color:white;
+  color: white;
 }
-
-
-
-
