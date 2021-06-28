@@ -6,7 +6,7 @@ import Home from "../pages/home"
 import Comic from "../pages/comic"
 import Shop from "../pages/shop"
 import Header from "../components/header"
-
+import Footer from "../components/footer"
 
  
 

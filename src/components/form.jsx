@@ -13,12 +13,11 @@ const Form = () => {
             </div>
             <div className="form-group form-check">
                 <input required type="checkbox" className="form-check-input" />
-                <label >Mantenerme conectado</label>
+                <label>Mantenerme conectado</label>
             </div>
             <button type="submit" className="btn btn-primary">Iniciar sesión</button>
             <div className="my-3">
-                <span> ¿Ya tienes cuenta? <a href="#">Registrate</a></span><br />
-                <span><a href="#">Recuperar contraseña</a></span>
+                <span> ¿Ya tienes cuenta? <a href="#">Registrate</a> / <a href="#">Recuperar contraseña</a></span>                
             </div>
         </form>
     )
