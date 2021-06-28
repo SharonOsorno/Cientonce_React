@@ -4,7 +4,7 @@ const Form = () => {
             <h2 className="text-center pb-3 text-bold text-black">Inicio Sesión</h2>
             <div className="form-group">
                 <label for="email">Correo electrónico</label>
-                <input required type="email" class="form-control" />
+                <input required type="email" className="form-control" />
                 <small id="emailHelp" className="form-text text-muted">No compartas tu correo electrónico con nadie</small>
             </div>
             <div className="form-group">

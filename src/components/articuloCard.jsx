@@ -11,13 +11,13 @@ const ArticuloCard = ({ photo, title, price, text }) => {
                 </div>
                 <div className="card-footer row justify-content-around">
                     <div className="col-5">
-                        <a data-value="1" title="Votar con 1 estrellas"><i class="far fa-star"></i></a>
-                        <a data-value="2" title="Votar con 2 estrellas"><i class="far fa-star"></i></a>
-                        <a data-value="3" title="Votar con 3 estrellas"><i class="far fa-star"></i></a>
-                        <a data-value="4" title="Votar con 4 estrellas"><i class="far fa-star"></i></a>
-                        <a data-value="5" title="Votar con 5 estrellas"><i class="far fa-star"></i></a>
+                        <span data-value="1" title="Votar con 1 estrellas"><i className="far fa-star"></i></span>
+                        <span data-value="2" title="Votar con 2 estrellas"><i className="far fa-star"></i></span>
+                        <span data-value="3" title="Votar con 3 estrellas"><i className="far fa-star"></i></span>
+                        <span data-value="4" title="Votar con 4 estrellas"><i className="far fa-star"></i></span>
+                        <span data-value="5" title="Votar con 5 estrellas"><i className="far fa-star"></i></span>
                     </div>
-                    <button className="btn_shop "><i class="fas fa-shopping-cart"></i></button>
+                    <button className="btn_shop "><i className="fas fa-shopping-cart"></i></button>
 
                 </div>
             </div>
