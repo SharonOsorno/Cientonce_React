@@ -17,7 +17,7 @@ const ArticuloCard = ({ photo, title, price, text }) => {
                         <span data-value="4" title="Votar con 4 estrellas"><i className="far fa-star"></i></span>
                         <span data-value="5" title="Votar con 5 estrellas"><i className="far fa-star"></i></span>
                     </div>
-                    <button className="btn_shop "><i className="fas fa-shopping-cart"></i></button>
+                    <button className="btn_shop"><i className="fas fa-shopping-cart"></i></button>
 
                 </div>
             </div>

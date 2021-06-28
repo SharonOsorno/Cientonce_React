@@ -17,7 +17,7 @@ const Form = () => {
             </div>
             <button type="submit" className="btn btn-primary">Iniciar sesión</button>
             <div className="my-3">
-                <span> ¿Ya tienes cuenta? <a href="#">Registrate</a> / <a href="#">Recuperar contraseña</a></span>                
+                <span> ¿Ya tienes cuenta? <a href="#"> Registrate</a> / <a href="#">Recuperar contraseña</a></span>                
             </div>
         </form>
     )
